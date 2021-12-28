@@ -5,8 +5,12 @@
 <body>
     <h1>현장관리</h1>
     <h2>건설업 실무 종사자들을 위한 현장관리 A to Z</h2>
-
     <p>현장관리를 시작하기 위해 새 현장을 생성합니다</p>
+
+    <form action="usersite.php">
+        현장명 : <input type="text" name="title" placeholder="계약서상 공사명을 입력하세요" ><br>
+                 <input type='submit' value='새 현장 생성'/>
+        </form>
 
     <style>
         h1{
@@ -24,8 +28,9 @@
                     
         }
         form{
-            text-align: center;
+            text-align: left;
             margin-top: 45px;
+            margin-left: 30%
         }
     </style>
 </body>

@@ -1,0 +1,5 @@
+공종 :  <input type="radio" name="gongjong" value="civil">토목
+                <input type="radio" name="gongjong" value="archi">건축
+                <input type="radio" name="gongjong" value="etc">전문 <br>
+        공사금액 : <input type="number" name="gongsamoney" placeholder="원단위 공사금액을 입력하세요" >원<br>
+        연면적 : <input type="number" name="gongsamoney" placeholder="계약서상 연면적을 입력하세요" >m2 <br>
