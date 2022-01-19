@@ -3,3 +3,26 @@
                 <input type="radio" name="gongjong" value="etc">전문 <br>
         공사금액 : <input type="number" name="gongsamoney" placeholder="원단위 공사금액을 입력하세요" >원<br>
         연면적 : <input type="number" name="gongsamoney" placeholder="계약서상 연면적을 입력하세요" >m2 <br>
+
+
+        $sql="
+   insert into siteinfo (
+    gongsamyeong,
+    balzugubun
+    gongjong
+    gongmoney
+    m2
+    chackgong
+    jungong
+    created
+    ) values (
+        '{$_post['gongsamyeong']}',
+        '{$_post['balzugubun']}',
+        '{$_post['gongjong']}',
+        '{$_post['gongmoney']}',
+        '{$_post['m2']}',
+        '{$_post['chackgong']}',
+        '{$_post['jungong']}',
+        now()
+        )
+    )";
